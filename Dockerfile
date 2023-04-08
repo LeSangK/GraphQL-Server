@@ -9,7 +9,7 @@ RUN apt-get update && \
     pip install mysql-connector-python
 
 # 環境変数の設定
-ENV MYSQL_ROOT_PASSWORD=Rcm_1907
+ENV MYSQL_ROOT_PASSWORD=190727
 ENV MYSQL_DATABASE=my_database_test
 
 # データベースの初期化用スクリプトの配置

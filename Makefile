@@ -6,7 +6,7 @@ build:
 	docker build -t $(PROJECT_NAME):$(TARGET) .
 
 run:
-	docker-compose up 
+	docker-compose up --build
 
 install:
 	pip3 install -r requirements.txt && pip3 freeze > requirements.lock
